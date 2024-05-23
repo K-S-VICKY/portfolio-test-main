@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    color: #333;
+}
+
+#introduction, #skills, #experience, #projects, #contact-form, #social-media {
+    margin-bottom: 2rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #eee;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #333;
+}
+
+article {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 4px solid #333;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    background: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+article a:hover {
+    background: #555;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 1rem;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+#social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-media ul li {
+    margin: 0 1rem;
+}
+
+#social-media ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#social-media ul li a:hover {
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    #social-media ul {
+        flex-direction: column;
+    }
+
+    #social-media ul li {
+        margin: 0.5rem 0;
+    }
+}
